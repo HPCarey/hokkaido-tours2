@@ -30,7 +30,7 @@ The website is intended for a variety of users:
 ### Wireframes:
 Althoug I know it was not a requirement, I used wireframes to help me visualise and conceptualise the features and layout of the website and it really helped me to create a solid image in my mind of how the webiste would function and look. It was also really useful in terms of getting feedback from my mentor on what would work and what wouldn't.
 
-[Wireframe](wireframes/Wireframes.pdf)
+[Wireframe](../all-about-tea/wireframes/wireframes.pdf)
 ## Features
 ## Testing
 ## Deployment
