@@ -46,6 +46,9 @@ Next I did a quick google search to see which fonts were commonly paired with Do
  Finally, I used [pairfonts](https://pairfonts.com/) to decide which font I wanted to pair with it. I chose lato and with the intention of experimenting between regular and italicized. The clean lines and simplicity matched Dosis well and was the style I was going for with my website.
 
 ## Features
-## Testing
+### Existing features
+#### Navigation bar
+The navigation bar is featured on all pages of the site. For simplicity and for a better UX, I designed the site from a section based approach. This means all the sections, with the exception of the community and validation pages, are on the same webpage which is scrollable. For this reason I made the nav bar sticky and tried to make it as thin as possible.
+
 ## Deployment
 ## Credit
