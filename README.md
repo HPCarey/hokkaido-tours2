@@ -37,9 +37,11 @@ Althoug I know it was not a requirement, I used wireframes to help me visualise 
 
  The next step was to go to input these hex values into the contrast grid on [Eightshapes](https://contrast-grid.eightshapes.com/) to check the WCAG 2.0 minimum contrast scores which helped me to pick a background and foreground colour that meet the accessibility requirements for good UX.
 
- ![Hero image](wireframes/README-images/colour-scheme/hero-image/hero-image.png)
- 
- ![Colour Grid]()
+ ![Hero image](docs/README-images/hero-image.jpg)
+
+ ![Colour Palette](docs/README-images/colour-palette.png)
+
+ ![Colour Grid](docs/README-images/colour-grid.png)
 
  ### Typogrophy
 
