@@ -48,7 +48,31 @@ Next I did a quick google search to see which fonts were commonly paired with Do
 ## Features
 ### Existing features
 #### Navigation bar
-The navigation bar is featured on all pages of the site. For simplicity and for a better UX, I designed the site from a section based approach. This means all the sections, with the exception of the community and validation pages, are on the same webpage which is scrollable. For this reason I made the nav bar sticky and tried to make it as thin as possible.
+The navigation bar is featured on all pages of the site. For simplicity and for a better UX, I designed the site from a section based approach. This means all the sections, with the exception of the community and validation pages, are on the same webpage which is scrollable. For this reason I made the nav bar sticky and tried to make it as thin as possible.The nav bar is fully responsive and links to the Home, About, Tea and Community sections. The Validation page can only be accessed once the form on the Community section has been filled in and submitted with the correct input type. 
+
+#### logo
+#### footer
+The footer is fully reposive and features at the bottom of each individual webpage. 
+
+It contains social media links which open  in a new tab for good UX. Although this is a made up website, in theory it is largely an online community, so social media is a big part of it's online presence in terms of connecting people, sharing ideas and orgainsing and promoting events.
+
+#### Landing page
+The landing page features the hero image below of a farmer's hand sifting through freshly picked tea leaves, which sets the tone and gives the user an idea of the kind of content the site provides. There is also a welcome heading and a short text about the site and inviting users to explore.
+
+#### About section
+The About section goes into more detail introducing the site to users and explaining what type of information and resources they will find. It also invites users to join the community by signing up for the monthly newsletter. This section features a video which encourages users to embrace a more mindful and meditative tea culture.
+
+#### Tea
+This section contains the main content of the site and is divided into three parts; tea varieties, tea ceremony and health. Each section has a heading, an image and some text about the topic. Beneath the text are some links to external resources and an embedded video related to the topic.
+
+This section also contains the footer with social media links.
+
+#### Community
+This section contains a second hero image as a background image, a heading with some text explaining about the community and how to get involved. Below this is a form where users can become members to get accesss to past articles and newsletter as well as to the online All About Tea community chat and message board. They have the option to subscribe to the monthly newleatter to receive news about tea production and sales, as well as events and featured articles. There is also a Contact section featuring an email, phone number and address for the base of operations in Dublin, as well as an embedded google maps location.  
+
+#### Validatio page
+This page displays a "Thank You" message once users have signed up to become members. iT feature the same hero image as the community page and the same contact information and map. 
+
 
 ## Deployment
 ## Credit
