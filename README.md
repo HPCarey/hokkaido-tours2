@@ -37,6 +37,9 @@ Althoug I know it was not a requirement, I used wireframes to help me visualise 
 
  The next step was to go to input these hex values into the contrast grid on [Eightshapes](https://contrast-grid.eightshapes.com/) to check the WCAG 2.0 minimum contrast scores which helped me to pick a background and foreground colour that meet the accessibility requirements for good UX.
 
+ ![Alt text goes here](file path goes here)
+ ![Colour Grid]()
+
  ### Typogrophy
 
  The first step for choosing the font was to got to [google fonts](https://fonts.google.com/) and type my website title to see which font had the style I was going for. I wanted something simple and with soft edges, so I ended up choosing Dosis.
