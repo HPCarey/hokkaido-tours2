@@ -30,7 +30,7 @@ The website is intended for a variety of users:
 ### Wireframes:
 Althoug I know it was not a requirement, I used wireframes to help me visualise and conceptualise the features and layout of the website and it really helped me to create a solid image in my mind of how the webiste would function and look. It was also really useful in terms of getting feedback from my mentor on what would work and what wouldn't.
 
-[Wireframe](../all-about-tea/wireframes/wireframes.pdf)
+[Wireframe](docs/README-images/wireframes.pdf)
 
 ### Colour Scheme
  The first step for creating the colour scheme was to uplaod the hero image to [colormind](http://colormind.io/image/) and generate a few different palettes and copy the hex values.
