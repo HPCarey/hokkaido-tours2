@@ -73,6 +73,12 @@ This section contains a second hero image as a background image, a heading with 
 #### Validatio page
 This page displays a "Thank You" message once users have signed up to become members. iT feature the same hero image as the community page and the same contact information and map. 
 
+### Features left to implement
+As this is a community page and as suggested in the Community section, one of the features of this site would be a message board and live chat feature.
+
+As the community grows, there would also be an events page where members and businesses could promote their tea events and meetups.
+
+There is also potential for a products page where member and non-member users could purchase tea and teaware. 
 
 ## Deployment
 ## Credit
