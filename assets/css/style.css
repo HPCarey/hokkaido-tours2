@@ -65,8 +65,10 @@ header {
     border-bottom: 1px solid #E0D6B5;
 }
 
-/* general 
-a {
-    text-decoration: none;
-    color: #E0D6B5;
-}*/
+/* hero image */
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/assets/hero-image.jpg') no-repeat center center;
+
+}
