@@ -4,12 +4,25 @@
     margin: 0;
     padding: 0;
     border: none;
+
 }
 body {
     font-family: arial, lato, sans-serif;
     font-weight: 300;
+    background-color: #CEC8A3;
+    color: #312E1C;
 }
 
-header {
-    
+/* headings and logo */
+h1, h2 {
+    font-family: dosis, sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    background-color: #312E1C;
+    color: #E0D6B5;
+}
+
+#logo {
+    font-size: 270%;
+    font-weight: 600;
 }
