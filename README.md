@@ -88,3 +88,8 @@ There is also potential for a products page where member and non-member users co
 
 ## Deployment
 ## Credit
+[Flex box tutorial](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+
+[Flex box and grid](https://www.youtube.com/watch?v=R7gqJkdc5dM)
+
+[flexboc navbar](https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt)
