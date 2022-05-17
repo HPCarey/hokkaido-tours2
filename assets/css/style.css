@@ -66,9 +66,31 @@ header {
 }
 
 /* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
 #hero-image {
-    height: 300px;
+    position: relative;
+    height: 600px;
     width: 100%;
     background: url('../images/assets/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 
+    /* animates zoom effect on landing page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates zoom for hero-image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
