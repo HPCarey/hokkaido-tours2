@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Lato:wght@300&display=swap');
 
-* {
+/*html {
+    font-size: 100%;
+    line-height: 1.5rem;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: none;
@@ -8,32 +11,42 @@
 }
 
 body {
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 600px;
     font-family: Lato, sans-serif;
     font-weight: 800;
     color: #312E1C;
     background-color: #CEC8A3;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 /* headings and logo */
 
-h1, h2 {
+/*h1, h2 {
     font-family: Dosis, sans-serif;
     text-transform:capitalize;
     letter-spacing: 2px;
 }
 .header-nav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: left;
-    align-items: start;
-    height: 50px;
+    justify-content: start;
+    align-items: center;
     line-height: 1rem;
     overflow: hidden;
-    margin-bottom: 0; 
+    margin-bottom: 0.5rems; 
     background-color: #312E1C;
     color: #E0D6B5;
 }
-
+/*
 .logo {
     font-size: 200%;
     font-weight: 600;
@@ -41,34 +54,36 @@ h1, h2 {
     background-color: #312E1C;
     color: #E0D6B5;
 }
-
+*/
 /* naivgation */
-.menu {
+/*.menu {
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-start;
-    font-size: 70%;
+    justify-content: start;
+    align-items: center;
+    /*font-size: 70%;
     letter-spacing: 2px;
     padding: 0;
     margin: 0;
 }
 
+
 .menu li {
     flex: 1 0 50%;
     list-style-type: none;
-    padding: 0;
+    /*padding: 0;
     margin: 0;
 }
 
 .logo a, .menu a {
-    display: flex;
+    display: block;
     text-decoration: none;
-    padding: 0;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem;
     color: #E0D6B5;
 }
 /* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt*/
-.menu a:hover {
+/*.menu a:hover {
     border-bottom: 1px solid #E0D6B5;
     transform: scale(1.1); 
 }
@@ -76,7 +91,7 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #E0D6B5;
 }
-
+*/
 /* hero image */
 
 #hero-outer {
