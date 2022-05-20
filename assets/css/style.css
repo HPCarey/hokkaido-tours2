@@ -26,7 +26,11 @@ h1 {
     letter-spacing: 2px;
     background-color: #312E1C;
     color: #E0D6B5
-   
+}
+
+#header-nav {
+    background-color: #312E1C;
+    color: #E0D6B5
 }
 
 #logo {
@@ -34,9 +38,7 @@ h1 {
     font-size: 280%;
 }
 
-.header-nav {
-    background-color: #312E1C;
-}
+
 
 #menu {
     font-size: 110%;
@@ -48,6 +50,55 @@ h1 {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+/* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt*/
+#menu a:hover {
+    border-bottom: 1px solid #E0D6B5;
+    transform: scale(1.1); 
+}
+
+.active {
+    border-bottom: 1px solid #E0D6B5;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+#hero-image {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background: url('../images/assets/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+
+    /* animates zoom effect on landing page */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates zoom for hero-image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 /*html {
     font-size: 100%;
@@ -127,47 +178,6 @@ body {
     padding: 0.8rem;
     color: #E0D6B5;
 }*/
-/* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt*/
-#menu a:hover {
-    border-bottom: 1px solid #E0D6B5;
-    transform: scale(1.1); 
-}
 
-.active {
-    border-bottom: 1px solid #E0D6B5;
-}
 
-/* hero image */
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
-#hero-image {
-    position: relative;
-    height: 600px;
-    width: 100%;
-    background: url('../images/assets/hero-image.jpg') no-repeat center center;
-    background-size: cover;
-
-    /* animates zoom effect on landing page */
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* creates zoom for hero-image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-@media (min-width: 600px){
-
-}
