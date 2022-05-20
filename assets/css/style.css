@@ -8,23 +8,30 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 800;
+    font-weight: 300;
     color: #312E1C;
     background-color: #CEC8A3;
 }
 
-/* headings and logo */
-h1, h2, h3 {
+/** headings and logo */
+
+header {
+    background-color: #312E1C;
+    color: #E0D6B5
+}
+
+h1 {
     font-family: Dosis, sans-serif;
-    text-transform:capitalize;
+    text-transform: capitalize;
     letter-spacing: 2px;
+    background-color: #312E1C;
+    color: #E0D6B5
+   
 }
 
 #logo {
     float: left;
-    font-size: 200%;
-    color: #E0D6B5;
-
+    font-size: 280%;
 }
 
 .header-nav {
@@ -37,7 +44,7 @@ h1, h2, h3 {
     background-color: #312E1C;
 }
 
-menu li {
+#menu li {
     float: right;
     margin-right: 30px;
     list-style-type: none;
