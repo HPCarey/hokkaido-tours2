@@ -19,6 +19,17 @@ h1, h2, h3 {
     text-transform:capitalize;
     letter-spacing: 2px;
 }
+
+#logo {
+    float: left;
+    font-size: 200%;
+    color: #E0D6B5;
+
+}
+
+.header-nav {
+    background-color: #312E1C;
+}
 /*html {
     font-size: 100%;
     line-height: 1.5rem;
