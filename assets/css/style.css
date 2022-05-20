@@ -27,9 +27,9 @@ h1, h2, h3 {
 
 }
 
-/*.header-nav {
+.header-nav {
     background-color: #312E1C;
-}*/
+}
 
 #menu {
     font-size: 110%;
@@ -83,7 +83,7 @@ body {
     margin-bottom: 0.5rems; 
     background-color: #312E1C;
     color: #E0D6B5;
-}
+}*/
 /*
 .logo {
     font-size: 200%;
@@ -119,9 +119,9 @@ body {
     letter-spacing: 0.2rem;
     padding: 0.8rem;
     color: #E0D6B5;
-}
+}*/
 /* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt*/
-/*.menu a:hover {
+#menu a:hover {
     border-bottom: 1px solid #E0D6B5;
     transform: scale(1.1); 
 }
@@ -129,7 +129,7 @@ body {
 .active {
     border-bottom: 1px solid #E0D6B5;
 }
-*/
+
 /* hero image */
 
 #hero-outer {
@@ -145,6 +145,7 @@ body {
     background-size: cover;
 
     /* animates zoom effect on landing page */
+
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
