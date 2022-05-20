@@ -12,6 +12,13 @@ body{
     color: #312E1C;
     background-color: #CEC8A3;
 }
+
+/* headings and logo */
+h1, h2, h3 {
+    font-family: Dosis, sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+}
 /*html {
     font-size: 100%;
     line-height: 1.5rem;
