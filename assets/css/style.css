@@ -70,13 +70,20 @@ h1 {
     border-bottom: 1px solid #E0D6B5;
 }
 
-/* hero image */
+/* hero image and cover text*/
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
+
+#welcome-text #welcome text h2 {
+    color: #fff;
+    font-family: Lato;
+}
+
 #hero-image {
     position: relative;
     height: 600px;
@@ -99,6 +106,22 @@ h1 {
     to {
         transform: scale(1.1);
     }
+}
+
+#welcome-text {
+    color: #fff;
+    font-size: 130%;
+    font-family: Lato, sans-serif;
+    letter-spacing: 2px;
+    width: 45%;
+    height: 55%;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(49, 46, 28, .9);
+
+    top: 30px;
+    left: 150px;
+    position: absolute;
 }
 /*html {
     font-size: 100%;
