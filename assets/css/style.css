@@ -28,6 +28,26 @@ h1 {
     color: #E0D6B5
 }
 
+h2 {
+    font-family: Dosis, sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-color: #312E1C;
+    color: #E0D6B5;
+}
+
+h3 {
+    font-family: Dosis, sans-serif;
+    font-size: 150%;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: #312E1C;
+}
+
 #header-nav {
     background-color: #312E1C;
     color: #E0D6B5
@@ -120,6 +140,9 @@ h1 {
     right: 150px;
     position: absolute;
 }
+
+/* About section */
+
 
 /*html {
     font-size: 100%;
