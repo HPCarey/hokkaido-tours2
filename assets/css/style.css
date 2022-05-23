@@ -144,12 +144,12 @@ h3 {
 /* footer */
 
 footer {
-    height: 150px;
-    background-color: #312E1C;
+   height: 150px;
 }
 
 .social-networks {
     text-align: center;
+    background-color: #312E1C;
 }
 
 .social-networks > li {
