@@ -185,6 +185,16 @@ footer {
     background-size: 100%;
 }
 
+#thank-you {
+    height: 150%
+}
+
+#thank-you h3 {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
 
 /* About section */
