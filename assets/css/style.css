@@ -141,6 +141,10 @@ h3 {
     position: absolute;
 }
 
+h3 > a {
+    color: #312E1C;
+}
+
 /* footer */
 
 footer {
@@ -162,6 +166,19 @@ footer {
     padding: 5%;
     color: #fff;
 }
+
+/* community page hero image */
+#hero-2 {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    background: url('../images/assets/hero-image2.jpg') no-repeat center center;
+    background-size: 100%;
+    background-position: -x;
+}
+
+
 
 /* About section */
 
