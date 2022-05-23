@@ -46,7 +46,29 @@
                 </p>
             </div>
             <div id="form">
-                
+                <form method="get" action="validation.html">
+                    <h3>Join Our Community</h3>
+                    <p>Enter your details and register here to create an account</p>
+                    <label for="fname">First Name:</label>
+                    <input id="fname" name="first_name" type="text" class="text-input" required>
+
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" name="last_name" type="text" class="text-input" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="text-input" required>
+
+                    <p>Subsribe to our Newsletter</p>
+                    <label for="join" class="subscribe">Yes please!</label>
+                    <input type="radio" name="newsletter_subscribe" id="subscribe" value="mail" required>
+
+                    <label for="no-join" class="subscribe">No thanks.</label>
+                    <input type="radio" name="newsletter_subscribe" id="subscribe" value="do_not_mail" required>
+
+                    <input class="join-button" type="submit" value="Sign Up!">
+
+
+                </form>
 
             </div>
             <div>
