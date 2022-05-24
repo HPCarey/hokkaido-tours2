@@ -215,6 +215,15 @@ footer {
     padding: 30px;
 }
 
+#form p {
+    margin-bottom: 20px;
+    font-family: Dosis, sans-serif;
+    font-size: 120%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #E0D6B5;
+}
+
 .text-input {
     background: transparent;
     color: #E0D6B5;
