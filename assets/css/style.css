@@ -57,6 +57,16 @@ h3 {
     color: #312E1C;
 }
 
+h4 {
+    font-family: Dosis, sans-serif;
+    font-size: 150%;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: #E0D6B5;
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -185,8 +195,27 @@ footer {
     background-size: 100%;
 }
 
-#thank-you {
-    height: 150%
+#community {
+    height: 900px;
+}
+#form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(49, 46, 28, .9);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+ 
+.contact_details {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(49, 46, 28, .9);
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
 }
 
 #thank-you h3 {
