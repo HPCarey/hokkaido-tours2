@@ -238,6 +238,26 @@ footer {
     background: rgba(224, 214, 181, .5);
 }
 
+.join-button {
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 10px;
+    border: 2px solid #E0D6B5;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 120%;
+    font-weight: 900;
+    background-color: #E0D6B5;
+    color: #312E1C;
+    display: block;
+}
+
+.join-button:hover {
+    background: rgba(224, 214, 181, .5);
+    color: #fff;
+    border-color: #ffff;
+}
 .contact_details {
     margin: 150px 10% 0 0;
     color: #fff;
