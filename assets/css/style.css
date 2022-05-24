@@ -68,6 +68,17 @@ h4 {
     color: #E0D6B5;
 }
 
+h5 {
+    font-family: Dosis, sans-serif;
+    font-size: 120%;
+    font-weight: 900;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: #E0D6B5;
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -258,6 +269,11 @@ footer {
     color: #fff;
     border-color: #ffff;
 }
+
+#no_subscribe {
+    margin-left: 50px;
+}
+
 .contact_details {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -268,6 +284,20 @@ footer {
     padding: 30px;
 }
 
+.contact_details li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: Lato, sans-serif;
+    font-size: 90%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #E0D6B5;
+}
+
+.contact_details a {
+    text-decoration: none;
+    color: #E0D6B5;
+}
 #thank-you h3 {
     text-align: center;
     text-decoration: none;
