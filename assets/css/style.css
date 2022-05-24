@@ -309,7 +309,24 @@ footer {
     margin-right: 15%;
 }
 
-
+@media screen and (max-width: 750px) {
+   .header-nav {
+    display: inline-block;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height:20%;
+    background-color: #312E1C;
+}
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
 /* About section */
 
 
