@@ -204,17 +204,44 @@ footer {
 }
 
 /* community page hero image */
+
+#hero-2-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-2 {
     position: relative;
     overflow: hidden;
-    height: 200px;
-    width: 100%;
     background: url('../images/assets/hero-image2.jpg') no-repeat center center;
     background-size: 100%;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+
+    /* animates zoom effect on community and validation page */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates zoom for hero-2-image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #community {
     height: 900px;
+    padding top: 0;
 }
 
 /* form and contact details */
