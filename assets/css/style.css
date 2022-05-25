@@ -182,6 +182,7 @@ h3 > a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-align: center;
 
 }
 .tea-container img {
@@ -249,7 +250,7 @@ footer {
 
 #community {
     height: 900px;
-    padding top: 0;
+    padding-top: 0;
 }
 
 /* form and contact details */
