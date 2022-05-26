@@ -155,20 +155,29 @@ h5 {
         transform: scale(1.1);
     }
 }
-
+/* Greens
+#16241C
+rgba(22, 36, 28, 1)
+#1E633F
+rgba(30, 99, 63, 1)
+#425A20
+rgba(66, 90, 32, 1)
+*/
 #welcome-text {
-    color: #fff;
+    color: #E0D6B5;
     font-size: 130%;
     font-family: Lato, sans-serif;
+    text-align: center;
     letter-spacing: 2px;
-    width: 45%;
-    height: 25%;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: rgba(49, 46, 28, .9);
+    width: 40%;
+    height: 35%;
+    padding-top: 30px;
+    background-color: rgba(66, 90, 32, .9);
+    box-sizing: border-box;
+    justify-content: center;
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 80px;
+    right: 90px;
     position: absolute;
 }
 
@@ -190,7 +199,7 @@ h5 {
     margin-bottom: 1.6vh;
 }
 
-.about-box > h3 {
+.about-box>h3 {
     margin-bottom: 1vh;
 }
 
@@ -380,6 +389,29 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+
+/* small screens and tablets */
+
+/*@media screen and (max-width: 1090px) {
+    #welcome-text {
+        color: #fff;
+        font-size: 130%;
+        font-family: Lato, sans-serif;
+        letter-spacing: 2px;
+        width: 45%;
+        height: 25%;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: rgba(49, 46, 28, .9);
+
+        bottom: 1.875em;
+        right: 9.375em;
+        position: absolute;
+    }
+}
+
+/* mobile devices */
 
 @media screen and (max-width: 750px) {
     .header-nav {
