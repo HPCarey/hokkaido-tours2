@@ -221,6 +221,10 @@ h3>a {
     padding-top: 1.6vh;
 }
 
+.tea-container a {
+    color: #312E1C;
+}
+
 .tea-box {
     border: 7px solid #312E1C;
     border-radius: 5px;
@@ -478,12 +482,12 @@ footer {
         margin-left: 5px;
     }
 
-    #menu {
+    /*#menu {
         clear: left;
         float: left;
         margin-left: 5px;
         margin-bottom: 3px;
-    }
+    }*/
 
     #menu,
     #logo {
@@ -496,7 +500,7 @@ footer {
 
 }
 
-
+/* This media query is because I want the navbar to be different for wider mobile screens, eg ipad air and ipad mini*/
 @media screen and (max-width: 750px) {
     .header-nav {
         display: inline-block;
