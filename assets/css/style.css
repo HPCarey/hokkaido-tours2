@@ -504,11 +504,6 @@ footer {
         font-size: 150%;
     }
 
-    #menu,
-    #logo {
-        line-height: 100px;
-    }
-
     #welcome-text {
         width: 45%;
         height: fit-content;
