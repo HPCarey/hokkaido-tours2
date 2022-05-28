@@ -496,13 +496,17 @@ footer {
 
     #logo {
         float: left;
-        font-size: 200%;
+        font-size: 280%;
         margin-left: 5px;
+    }
+
+    #menu {
+        font-size: 150%;
     }
 
     #menu,
     #logo {
-        line-height: 40px;
+        line-height: 100px;
     }
 
     #welcome-text {
@@ -526,7 +530,7 @@ footer {
         overflow: hidden;
         z-index: 1;
         width: 100%;
-        height: 9%;
+        height: fit-content;
         background-color: #312E1C;
     }
 
