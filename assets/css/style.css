@@ -232,7 +232,7 @@ h3>a {
     box-sizing: border-box;
     /*makes the flex items take up equal width of the view port*/
     flex: 1;
-    
+
 }
 
 .tea-box>p {
@@ -497,7 +497,7 @@ footer {
     #logo {
         float: left;
         font-size: 280%;
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     #menu {
@@ -546,6 +546,11 @@ footer {
     #menu,
     #logo {
         line-height: 30px;
+        margin-left: 8px;
+    }
+
+    #menu li {
+        margin-right: 20px;
     }
 
     #welcome-text {
@@ -555,6 +560,7 @@ footer {
         left: 15px
     }
 }
+
 /* About section */
 
 
