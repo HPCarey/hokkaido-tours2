@@ -167,11 +167,11 @@ h5 {
     color: #E0D6B5;
     font-size: 130%;
     font-family: Lato, sans-serif;
-    text-align: center;
+    text-align: justify;
     letter-spacing: 2px;
-    width: 40%;
-    height: 35%;
-    padding-top: 30px;
+    width: 45%;
+    height: 45%;
+    padding-top: 3% 5%;
     background-color: rgba(66, 90, 32, .9);
     box-sizing: border-box;
     justify-content: center;
@@ -510,6 +510,10 @@ footer {
     #menu,
     #logo {
         line-height: 40px;
+    }
+
+    #welcome-text {
+
     }
 
     .container_contact {
