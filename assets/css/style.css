@@ -231,13 +231,22 @@ h3>a {
     border: 7px solid #312E1C;
     border-radius: 5px;
     margin: 4px;
-    flex: 1;
     box-sizing: border-box;
+    /*makes the flex items take up equal width of the view port*/
+    flex: 1;
+    
 }
 
 .tea-box>p {
     margin: 1.6vh;
     text-align: justify;
+}
+
+.tea-box>h5 {
+    text-decoration: none;
+    color: #312E1C;
+    margin: 1.6vh;
+    text-align: left;
 }
 
 /* footer */
@@ -444,6 +453,11 @@ footer {
 @media screen and (max-width: 1030px) {
     .tea-container {
         flex-wrap: wrap;
+    }
+
+    /*undoes the flex property to make items equal width so that they wrap in smaller screen sizes*/
+    .tea-box {
+        flex-basis: 100%;
     }
 
     #welcome-text {
