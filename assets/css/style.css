@@ -572,6 +572,11 @@ footer {
         left: 15px
     }
 
+    #hero-2 {
+        background-size: 130%;
+        height: 90vh;
+    }
+
     #contact_details {
         height: fit-content;
     }
