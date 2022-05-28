@@ -119,11 +119,13 @@ h5 {
 /* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt*/
 #menu a:hover {
     border-bottom: 1px solid #E0D6B5;
-    transform: scale(1.1);
+    font-size: larger;
 }
 
-.active {
-    border-bottom: 1px solid #E0D6B5;
+/*menu active feature changes text colour to give a clicking effect*/
+#menu a:active {
+    border-bottom: 1px solid #425A20;
+    color: #425A20;
 }
 
 /* hero image and cover text*/
@@ -229,6 +231,7 @@ h3>a {
     border: 7px solid #312E1C;
     border-radius: 5px;
     margin: 4px;
+    flex: 1;
     box-sizing: border-box;
 }
 
