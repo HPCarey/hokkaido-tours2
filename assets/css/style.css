@@ -167,17 +167,15 @@ h5 {
     color: #E0D6B5;
     font-size: 130%;
     font-family: Lato, sans-serif;
-    text-align: justify;
     letter-spacing: 2px;
     width: 45%;
-    height: 45%;
-    padding-top: 3% 5%;
+    height: fit-content;
+    padding: 3% 5%;
     background-color: rgba(66, 90, 32, .9);
     box-sizing: border-box;
     justify-content: center;
-
-    bottom: 80px;
-    right: 90px;
+    bottom: 29px;
+    right: 34px;
     position: absolute;
 }
 
@@ -462,6 +460,8 @@ footer {
 
     #welcome-text {
         padding-top: 10px;
+        bottom: 29px;
+        right: 34px;
     }
 
     /* #welcome-text {
@@ -500,20 +500,16 @@ footer {
         margin-left: 5px;
     }
 
-    /*#menu {
-        clear: left;
-        float: left;
-        margin-left: 5px;
-        margin-bottom: 3px;
-    }*/
-
     #menu,
     #logo {
         line-height: 40px;
     }
 
     #welcome-text {
-
+        width: 45%;
+        height: fit-content;
+        top: 130px;
+        left: 43px
     }
 
     .container_contact {
@@ -551,6 +547,13 @@ footer {
     #menu,
     #logo {
         line-height: 30px;
+    }
+
+    #welcome-text {
+        width: 65%;
+        height: fit-content;
+        top: 85px;
+        left: 15px
     }
 }
 /* About section */
