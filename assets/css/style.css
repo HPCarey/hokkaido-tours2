@@ -219,7 +219,7 @@ h3>a {
 }
 
 .tea-container img {
-    width: 300px;
+    width: 80%;
     padding-top: 1.6vh;
 }
 
@@ -237,6 +237,7 @@ h3>a {
 
 .tea-box>p {
     margin: 1.6vh;
+    text-align: justify;
 }
 
 /* footer */
