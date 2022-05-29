@@ -28,9 +28,18 @@ The website is intended for a variety of users:
 3. The site will offer users the opportunity to become members and recieve monthly educational articles and updates of events and meetup opportunites (both online and face to face events) around the world. 
 
 ### Wireframes:
-Althoug I know it was not a requirement, I used wireframes to help me visualise and conceptualise the features and layout of the website and it really helped me to create a solid image in my mind of how the webiste would function and look. It was also really useful in terms of getting feedback from my mentor on what would work and what wouldn't.
+Although I know it was not a requirement, I used wireframes to help me visualise and conceptualise the features and layout of the website and it really helped me to create a solid image in my mind of how the webiste would function and look. It was also really useful in terms of getting feedback from my mentor on what would work and what wouldn't.
 
-[Wireframe](docs/README-images/wireframes.pdf)
+See [Wireframes.](docs/README-images/wireframes.pdf)
+
+### Imagery
+The images are a really important aspect of the site because they really help to set the tone and are a strong influence on the colour scheme which features earhty brown and green tones. 
+* Images were taken from 
+    * [Pixabay](https://pixabay.com)
+    * [Unsplash](https://unsplash.com)
+    * [Pexels](https://www.pexels.com)
+
+* Images were formatted according to [this](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/) article which is mentioned in the credits.
 
 ### Colour Scheme
  The first step for creating the colour scheme was to uplaod the hero image to [colormind](http://colormind.io/image/) and generate a few different palettes and copy the hex values.
@@ -56,17 +65,23 @@ Next I did a quick google search to see which fonts were commonly paired with Do
 #### Navigation bar
 The navigation bar is featured on all pages of the site. For simplicity and for a better UX, I designed the site from a section based approach. This means all the sections, with the exception of the community and validation pages, are on the same webpage which is scrollable. For this reason I made the nav bar sticky and tried to make it as thin as possible.The nav bar is fully responsive and links to the Home, About, Tea and Community sections. The Validation page can only be accessed once the form on the Community section has been filled in and submitted with the correct input type. 
 
-#### logo
-#### footer
-The footer is fully reposive and features at the bottom of each individual webpage. 
+#### Logo
+The logo also acts as a link to the homepage and is made up of the site name.
+#### Footer 
+It footer social media links which open  in a new tab for good UX. Although this is a made up website, in theory it is largely an online community, so social media is a big part of it's online presence in terms of connecting people, sharing ideas and orgainsing and promoting events.
 
-It contains social media links which open  in a new tab for good UX. Although this is a made up website, in theory it is largely an online community, so social media is a big part of it's online presence in terms of connecting people, sharing ideas and orgainsing and promoting events.
+* The footer is fully reposive and features at the bottom of each individual webpage.
+* All social media links open in a new tab and contain aria-labels for accessability.
 
 #### Landing page
-The landing page features the hero image below of a farmer's hand sifting through freshly picked tea leaves, which sets the tone and gives the user an idea of the kind of content the site provides. There is also a welcome heading and a short text about the site and inviting users to explore.
+* The landing page features the hero image of a farmer's hand sifting through freshly picked tea leaves, which sets the tone and gives the user an idea of the kind of content the site provides. There is a zoom effect as seen in the Love Running walkthrough project.
+* There is also a text overlay on the hero image giving a brief site overview and  inviting users to explore.
 
 #### About section
-The About section goes into more detail introducing the site to users and explaining what type of information and resources they will find. It also invites users to join the community by signing up for the monthly newsletter. This section features a video which encourages users to embrace a more mindful and meditative tea culture.
+The About section goes into more detail introducing the site to users and explaining what type of information and resources they will find.
+*  The section begins with a tea mindfulness quote and then scrolls down to an embedded video again promoting tea mindfulness.
+  * The main content is a short introduction to the 3 aspects of tea featured on the site and what kind of information to expect under each heading. 
+  * The heading are also internal links to the part of the site related to that specific content. They have a hover feature to allow users to identify that they are links. This is more useful for the mobile and small screen structure as the content is divided put a bit more and there is a lot more scrolling involved. 
 
 #### Tea
 This section contains the main content of the site and is divided into three parts; tea varieties, tea ceremony and health. Each section has a heading, an image and some text about the topic. Beneath the text are some links to external resources and an embedded video related to the topic.
@@ -74,9 +89,20 @@ This section contains the main content of the site and is divided into three par
 This section also contains the footer with social media links.
 
 #### Community
-This section contains a second hero image as a background image, a heading with some text explaining about the community and how to get involved. Below this is a form where users can become members to get accesss to past articles and newsletter as well as to the online All About Tea community chat and message board. They have the option to subscribe to the monthly newleatter to receive news about tea production and sales, as well as events and featured articles. There is also a Contact section featuring an email, phone number and address for the base of operations in Dublin, as well as an embedded google maps location.  
+* This section contains a second hero image as a background image, a heading with some text explaining about the community and how to get involved. 
 
-#### Validatio page
+* There is form where users can become members to get accesss to past articles and newsletter as well as to the online All About Tea community chat and message board. 
+    * The form contains 3 input fields for first name, last name and email address, which are required for form validation.
+
+    * Within the form, users have the option to  subscribe to the monthly newsletter to receive news about tea production and sales, as well as events and featured articles. This is also a required field in the form of 2 radio buttons.
+
+    * Lastly there is a submit button that will only validate the submission if all required fields have been filled in using the correct input type.
+
+    * The user is taken to a validation page upon completing the form which has been set up using action="validation.html. No data is actually being collected.
+
+* There is also a Contact section featuring an email, phone number and address for the base of operations in Dublin, as well as an embedded google maps location.  
+
+#### Validation page
 This page displays a "Thank You" message once users have signed up to become members. iT feature the same hero image as the community page and the same contact information and map. 
 
 ### Features left to implement
@@ -86,10 +112,47 @@ As the community grows, there would also be an events page where members and bus
 
 There is also potential for a products page where member and non-member users could purchase tea and teaware. 
 
+## Technology
+### Languages 
+* HTML
+* CSS
+### Frameworks and Libraries
+* [Font awesome](https://fontawesome.com/)
+* [Pairfonts](https://pairfonts.com/)
+* [Google fonts](https://fonts.google.com/)
+* [Balsamiq](https://balsamiq.com/wireframes/)
+* [Github](https://github.com/)
+* [Gitpod](https://gitpod.io/)
+* [Tiny PNG](https://tinypng.com/)
+* [Pixabay](https://pixabay.com)
+* [Unsplash](https://unsplash.com)
+* [Pexels](https://www.pexels.com)
+* [Eightshapes](https://contrast-grid.eightshapes.com/)
+* [Colour Palette](docs/README-images/colour-palette.png)
+* [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba)
+* [Am I responsive](https://ui.dev/amiresponsive)
+
+
 ## Deployment
 ## Credit
+Sticky Nav how to: [w3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+
+How to align items in flexbox (This helped me solve several alignment issues with flex content including how to center the images in a display flex container a): [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+
+How to push items to the bottom of the page with margin: 0 auto; [culture foundry](https://www.culturefoundry.com/cultivate/technology/bottom-align-an-element-with-flexbox/)
+
+ How to get flex items to wrap after making them display: flex; flex: 1; for equal width: [Stack Overflow](https://stackoverflow.com/questions/44135352/flex-wrap-is-not-wrapping-when-i-reduce-the-window-size)
+
+ How to make your flex items the same width : [Stack Overflow](https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size) 
+ [Tutorial](https://www.google.com/search?q=how+do+you+make+your+flex+items+the+same+size&oq=how+do+you+make+your+flex+items+the+same+&aqs=chrome.1.69i57j33i160l4.17209j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_O9WRYuqNDuKWseMPnbe74Ag18)
+
+how to use :active pseudo class : [W3schools](https://www.w3schools.com/cssref/sel_active.asp)
+
 [Flex box tutorial](https://www.youtube.com/watch?v=JJSoEo8JSnc)
 
 [Flex box and grid](https://www.youtube.com/watch?v=R7gqJkdc5dM)
 
-[flexboc navbar](https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt)
+[flexbox navbar](https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt)
+
+### Articles
+[Jimdo](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/): Article on how to prepare images for assets folder

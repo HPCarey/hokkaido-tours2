@@ -210,6 +210,10 @@ h3>a {
     color: #312E1C;
 }
 
+.about-container a:hover {
+    color: #425A20;
+    font-size: larger;
+}
 /* Tea section */
 /*creates and styles a flexbox container div*/
 .tea-container {
@@ -231,13 +235,17 @@ h3>a {
     color: #312E1C;
 }
 
+.tea-container a:hover {
+    color: #425A20;
+    font-size: larger;
+}
 /*styles the items inside the containr and their elements*/
 .tea-box {
     border: 7px solid #312E1C;
     border-radius: 5px;
     margin: 4px;
     box-sizing: border-box;
-    /*makes the flex items take up equal width of the view port*/
+    /*makes the flex items take up equal width of the view port taken from stack overflow :https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size*/
     flex: 1;
     display: flex;
     flex-direction: column;
