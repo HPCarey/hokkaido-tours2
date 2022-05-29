@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Lato:wght@300&display=swap');
 
-/*Removes browser default*/
+/*Removes default browser styles*/
 * {
     margin: 0;
     padding: 0;
@@ -245,7 +245,7 @@ h3>a {
 
 .tea-box>p {
     margin: 1.6vh;
-    text-align: justify;
+    text-align: left;
 }
 
 .tea-box h5 {
@@ -399,8 +399,12 @@ footer {
     border-color: #ffff;
 }
 
-#no_subscribe {
-    margin-left: 50px;
+.subscribe {
+    margin-left: 1%;
+}
+
+.do_not_subscribe {
+    margin-left: 10%;
 }
 
 /*styles the contact details div*/
