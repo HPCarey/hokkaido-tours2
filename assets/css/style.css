@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Lato:wght@300&display=swap');
 
+/*Removes browser default*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/*general style rules for body element*/
 body {
     font-family: Lato, sans-serif;
     font-weight: 900;
@@ -15,11 +17,10 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
-/** headings and logo */
-
+/*the landing page is based on the Love Running landing page with hero image zoom effect and similar navbar design*/
+/*styles header to stand out with background color and to be sticky*/
 .header-nav {
     display: inline-block;
     position: fixed;
@@ -38,6 +39,7 @@ header i {
     color: #425A20;
 }
 
+/*headings all styled according to their semantic importance on the page*/
 h1 {
     font-family: Dosis, sans-serif;
     text-transform: capitalize;
@@ -87,13 +89,14 @@ h5 {
     color: #E0D6B5;
 }
 
+/*logo style for header and navbar*/
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
 }
 
-/* nav bar */
+/* nav bar menu */
 
 #menu {
     font-size: 110%;
@@ -116,7 +119,8 @@ h5 {
     line-height: 75px;
 }
 
-/* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt*/
+/* Menu hover feature seen on : Flexbox Navbar Mobile First Responsive Tutorial  https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt
+in the tutorial transform: scale (1.1) was used but this stopped working on mine at somepoint so I went with font: larger for a similar effect*/
 #menu a:hover {
     border-bottom: 1px solid #E0D6B5;
     font-size: larger;
@@ -129,7 +133,6 @@ h5 {
 }
 
 /* hero image and cover text*/
-
 #hero-outer {
     height: 99vh;
     width: 100%;
@@ -163,6 +166,7 @@ h5 {
     }
 }
 
+/*text overlay for landing page hero-image"*/
 #welcome-text {
     color: #E0D6B5;
     font-size: 130%;
@@ -180,7 +184,7 @@ h5 {
 }
 
 /* About section */
-
+/*creates and styles a flexbox container div*/
 .about-container {
     padding: 0;
     display: flex;
@@ -193,6 +197,7 @@ h5 {
     box-sizing: border-box;
 }
 
+/*styles the items inside the container and their elements*/
 .about-box {
     margin-bottom: 1.6vh;
 }
@@ -206,7 +211,7 @@ h3>a {
 }
 
 /* Tea section */
-
+/*creates and styles a flexbox container div*/
 .tea-container {
     padding: 0;
     display: flex;
@@ -226,6 +231,7 @@ h3>a {
     color: #312E1C;
 }
 
+/*styles the items inside the containr and their elements*/
 .tea-box {
     border: 7px solid #312E1C;
     border-radius: 5px;
@@ -251,13 +257,13 @@ h3>a {
 }
 
 /* footer */
-
 footer {
     height: 30px;
     Width: 100%;
     margin-top: auto;
 }
 
+/*styles the social network links in the footer*/
 .social-networks {
     text-align: center;
     background-color: #312E1C;
@@ -275,7 +281,6 @@ footer {
 }
 
 /* community page hero image */
-
 #hero-2-outer {
     height: 82vh;
     width: 100%;
@@ -310,10 +315,7 @@ footer {
     }
 }
 
-#community {
-    padding-top: 0;
-}
-
+/*creates and styles a flexbox container for community section*/
 .community-class {
     padding: 0;
     display: flex;
@@ -326,19 +328,6 @@ footer {
     margin-top: 1.875em;
     padding: 0.625em;
     box-sizing: border-box;
-
-    /*height: 100%;
-    font-size: 110%;
-    letter-spacing: 2px;
-    border: 7px solid #312E1C;
-    border-radius: 5px;
-    background-color: rgba(66, 90, 32, .9);
-    color: #E0D6B5;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1.875em;
-    padding: 0.625em;
-    box-sizing: border-box;*/
 }
 
 .community-class>h3 {
@@ -346,8 +335,7 @@ footer {
 }
 
 
-/* form and contact details */
-
+/*creates and styles a flexbox container for form and contact details */
 .container_contact {
     padding: 0;
     display: flex;
@@ -357,6 +345,7 @@ footer {
     box-sizing: border-box;
 }
 
+/*styles the form*/
 #form {
     margin-top: 3%;
     margin-right: 3%;
@@ -414,6 +403,7 @@ footer {
     margin-left: 50px;
 }
 
+/*styles the contact details div*/
 #contact_details {
     margin-top: 3%;
     margin-bottom: 3%;
@@ -445,7 +435,6 @@ footer {
 }
 
 /*validation page */
-
 #thank-you h3 {
     text-align: center;
     text-decoration: none;
@@ -453,15 +442,20 @@ footer {
     margin-right: 15%;
 }
 
-
+/*Media Queries*/
 /* small screens and tablets */
-
 @media screen and (max-width: 1030px) {
+    #welcome-text {
+        padding-top: 10px;
+        bottom: 29px;
+        right: 34px;
+    }
+
     .tea-container {
         flex-wrap: wrap;
     }
 
-    /*undoes the flex property to make items equal width so that they wrap in smaller screen sizes*/
+    /*undoes the flex 1 command to make items equal width so that they wrap in smaller screen sizes*/
     .tea-box {
         flex-basis: 100%;
     }
@@ -473,51 +467,16 @@ footer {
     .tea-box h5~p {
         text-align: center;
     }
-
-    #welcome-text {
-        padding-top: 10px;
-        bottom: 29px;
-        right: 34px;
-    }
-
-    /* #welcome-text {
-        color: #fff;
-        font-size: 130%;
-        font-family: Lato, sans-serif;
-        letter-spacing: 2px;
-        width: 45%;
-        height: 25%;
-        padding-top: 10px;
-        padding-left: 10px;
-        background-color: rgba(49, 46, 28, .9);
-
-        bottom: 1.875em;
-        right: 9.375em;
-        position: absolute;
-    }*/
 }
 
 /* mobile devices */
-
 @media screen and (max-width: 900px) {
-    .header-nav {
-        display: inline-block;
-        position: fixed;
-        overflow: hidden;
-        z-index: 1;
-        width: 100%;
-        height: 10%;
-        background-color: #312E1C;
-    }
-
     #logo {
-        float: left;
-        font-size: 280%;
         margin-left: 15px;
     }
 
     #menu {
-        font-size: 150%;
+        font-size: 140%;
     }
 
     #welcome-text {
@@ -540,20 +499,13 @@ footer {
     }
 }
 
-/* This media query is because I want the navbar to be different for wider mobile screens, eg ipad air and ipad mini*/
+/* Media query for narrower mobile screens*/
 @media screen and (max-width: 750px) {
     .header-nav {
-        display: inline-block;
-        position: fixed;
-        overflow: hidden;
-        z-index: 1;
-        width: 100%;
         height: fit-content;
-        background-color: #312E1C;
     }
 
     #logo {
-        float: left;
         font-size: 120%;
         margin-left: 5px;
     }
@@ -592,85 +544,3 @@ footer {
         height: fit-content;
     }
 }
-
-/* About section */
-
-
-/*html {
-    font-size: 100%;
-    line-height: 1.5rem;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;
-
-}
-
-body {
-    margin: 0 auto;
-    padding: 0;
-    min-height: 100vh;
-    min-width: 600px;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-/* headings and logo */
-
-/*h1, h2 {
-    font-family: Dosis, sans-serif;
-    text-transform:capitalize;
-    letter-spacing: 2px;
-}
-.header-nav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    line-height: 1rem;
-    overflow: hidden;
-    margin-bottom: 0.5rems; 
-    background-color: #312E1C;
-    color: #E0D6B5;
-}*/
-/*
-.logo {
-    font-size: 200%;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: #312E1C;
-    color: #E0D6B5;
-}
-*/
-/* naivgation */
-/*.menu {
-    list-style: none;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    /*font-size: 70%;
-    letter-spacing: 2px;
-    padding: 0;
-    margin: 0;
-}
-
-
-.menu li {
-    flex: 1 0 50%;
-    list-style-type: none;
-    /*padding: 0;
-    margin: 0;
-}
-
-.logo a, .menu a {
-    display: block;
-    text-decoration: none;
-    letter-spacing: 0.2rem;
-    padding: 0.8rem;
-    color: #E0D6B5;
-}*/
