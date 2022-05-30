@@ -74,24 +74,28 @@ Next I did a quick google search to see which fonts were commonly paired with Do
 * As much of the site is a single page the nav bar is sticky to aid navigation and I tried to make it as thin as possible so it doesn't interfere with the content too much.
 * The nav bar is fully responsive and links to the Home, About, Tea and Community sections. 
 * The Validation page can only be accessed once the form on the Community section has been filled in and submitted with the correct input type. 
+![navbar](docs/README-images/navbar.png)
 
 #### Logo
 The logo also acts as a link to the homepage and is made up of the site name. It is part of the navigation bar and so is always on the screen as the navbar is sticky. 
-
+![logo](docs/README-images/logo.png)
 #### Footer 
 * The footer is fully reposive and features at the bottom of each individual webpage.
 * The footer contains external links to social media.
 * All social media links open in a new tab and contain aria-labels for accessability.
+![footer](docs/README-images/footer.png)
 
 #### Landing page
 * The landing page features the hero image of a farmer's hand sifting through freshly picked tea leaves, which sets the tone and gives the user an idea of the kind of content the site provides. There is a zoom effect as seen in the Love Running walkthrough project.
 * There is also a text overlay on the hero image giving a brief site overview and  inviting users to explore.
-
+![landing](docs/README-images/landing-page.png)
 #### About section
 The About section goes into more detail introducing the site to users and explaining what type of information and resources they will find.
 *  The section begins with a tea mindfulness quote and then scrolls down to an embedded video again promoting tea mindfulness.
+![About page](docs/README-images/About-page.png)
   * The main content is a short introduction to the 3 aspects of tea featured on the site and what kind of information to expect under each heading. 
   * The heading are also internal links to the part of the site related to that specific content. They have a hover feature to allow users to identify that they are links. This is more useful for the mobile and small screen structure as the content is divided put a bit more and there is a lot more scrolling involved. 
+  ![about page main](docs/README-images/about-main-content.png)
 
 #### Tea
 * This section contains the main content of the site and is divided into three parts; 
@@ -99,12 +103,17 @@ The About section goes into more detail introducing the site to users and explai
      * Tea varieties
      * Tea ceremony
      * Health
+     ![tea](docs/README-images/Tea-section.png)
 
-* Each part has a heading, an image and some text about the topic. Beneath the text are some links to external resources and an embedded video related to the topic.
-
+* Each part has a heading, an image and some text about the topic. Beneath the text are some links to external resources, such as articles and videos, related to the topic.
+* The external links all open in a new tab, and like the internal links in the above "about" section, there is a hover feature where they change color and size to help users identify them as links.
+* aria-labels have been used to explain wha the link is and that it will open a new tab for users using a screen reader. 
+![resources](docs/README-images/resources.png)
 #### Community
-* This section contains a second hero image as a background image, a heading with some text explaining about the community and how to get involved. 
+* This section contains a second hero image as a background image to convey more clearly to the user that they have left the main page of the site and are on a new page.
+*  Beneath there is a heading with a paragraph explaining about the community and how to get involved. 
 
+![community](docs/README-images/community.png)
 * There is form where users can become members to get accesss to past articles and newsletter as well as to the online All About Tea community chat and message board. 
     * The form contains 3 input fields for first name, last name and email address, which are required for form validation.
 
@@ -116,8 +125,14 @@ The About section goes into more detail introducing the site to users and explai
 
 * There is also a Contact section featuring an email, phone number and address for the base of operations in Dublin, as well as an embedded google maps location.  
 
+![form and contacr](docs/README-images/form-contact.png)
+
 #### Validation page
-This page displays a "Thank You" message once users have signed up to become members. iT feature the same hero image as the community page and the same contact information and map. 
+* This page displays a "Thank You" message once users have signed up to become members. 
+* It features the same hero image as the community page for consistency and to show the link between the two pages.
+* Originally I was going to repeat some of the content from the community page and perhaps add an image, but in the end I liked the simplicity of the thank you message and repeating information from other pages seemed a bit redundant.
+
+![validation](docs/README-images/validation-page.png)
 
 ### Features left to implement
 * As this is a community page and as suggested in the Community section, one of the features of this site would be a message board and live chat feature.
@@ -148,15 +163,17 @@ This page displays a "Thank You" message once users have signed up to become mem
 
 ## Testing
   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
+  8.2 test cases (user story based with screenshots)
+  8.3 fixed bugs
+  8.4 supported screens and 
+  
 ### User Stories
 * As a visiting user, I want a quick, general intorduction to the topics.
 * As a user, I want to be able to easily navigate to the section with the information I am seeking.
 * As a user, I want to have learned something about the topic for which I visited the website.
 * As a user, I want to be given navigation links to other resources that go more in depth on the topic that interests me most.
 * As a user, I want the opportunity to connect with like-minded people and to become part of a community.
+
 ## Deployment 
 9.1 via gitpod 
 
