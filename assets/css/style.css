@@ -167,7 +167,7 @@ in the tutorial transform: scale (1.1) was used but this stopped working on mine
 }
 
 /*text overlay for landing page hero-image"*/
-#welcome-text {
+#welcome-text h2 {
     color: #E0D6B5;
     font-size: 130%;
     font-family: Lato, sans-serif;
@@ -181,6 +181,8 @@ in the tutorial transform: scale (1.1) was used but this stopped working on mine
     bottom: 29px;
     right: 34px;
     position: absolute;
+    text-transform: initial;
+    text-align: left;
 }
 
 /* About section */
@@ -462,7 +464,7 @@ footer {
 /*Media Queries*/
 /* small screens and tablets */
 @media screen and (max-width: 1030px) {
-    #welcome-text {
+    #welcome-text h2 {
         padding-top: 10px;
         bottom: 29px;
         right: 34px;
@@ -496,7 +498,7 @@ footer {
         font-size: 140%;
     }
 
-    #welcome-text {
+    #welcome-text h2 {
         width: 45%;
         height: fit-content;
         top: 130px;
@@ -545,10 +547,10 @@ footer {
         margin-right: 20px;
     }
 
-    #welcome-text {
+    #welcome-text h2 {
         width: 65%;
         height: fit-content;
-        top: 85px;
+        top: 75px;
         left: 15px
     }
 
