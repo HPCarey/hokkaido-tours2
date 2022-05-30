@@ -185,6 +185,11 @@ in the tutorial transform: scale (1.1) was used but this stopped working on mine
 
 /* About section */
 /*creates and styles a flexbox container div*/
+.iframe-container iframe {
+    width: 100%;
+    height: 76vh;
+}
+
 .about-container {
     padding: 0;
     display: flex;
