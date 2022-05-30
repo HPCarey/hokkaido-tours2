@@ -256,7 +256,7 @@ h3>a {
     text-align: left;
 }
 
-.tea-box h5 {
+.tea-box h4 {
     text-decoration: none;
     color: #312E1C;
     margin: 1.6vh;
@@ -472,11 +472,11 @@ footer {
         flex-basis: 100%;
     }
 
-    .tea-box h5 {
+    .tea-box h4 {
         text-align: center;
     }
 
-    .tea-box h5~p {
+    .tea-box h4~p {
         text-align: center;
     }
 }
@@ -552,6 +552,9 @@ footer {
         height: 90vh;
     }
 
+    .quote {
+        font-size: 130%;
+    }
     #contact_details {
         height: fit-content;
     }
