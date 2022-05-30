@@ -41,7 +41,7 @@ The images are a really important aspect of the site because they really help to
 
 * Images were formatted according to [this](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/) article which is mentioned in the credits.
 
-### Colour Scheme
+### Colour Scheme and Accessibility
  The first step for creating the colour scheme was to uplaod the hero image to [colormind](http://colormind.io/image/) and generate a few different palettes and copy the hex values.
 
  The next step was to go to input these hex values into the contrast grid on [Eightshapes](https://contrast-grid.eightshapes.com/) to check the WCAG 2.0 minimum contrast scores which helped me to pick a background and foreground colour that meet the accessibility requirements for good UX.
@@ -60,17 +60,27 @@ Next I did a quick google search to see which fonts were commonly paired with Do
 
  Finally, I used [pairfonts](https://pairfonts.com/) to decide which font I wanted to pair with it. I chose lato and with the intention of experimenting between regular and italicized. The clean lines and simplicity matched Dosis well and was the style I was going for with my website.
 
+ ### Layout
+ * The main content is on a single web page containging multiple sections which is the most appropriate for an information-based site
+ * There are 2 other pages:
+      * The Community page which provides information about the community, a sign up form and contact information, accessible via the navigation menu.
+      * A form validation page which displays a thank you message upon correct form completion.
+ 
+
 ## Features
 ### Existing features
 #### Navigation bar
-The navigation bar is featured on all pages of the site. For simplicity and for a better UX, I designed the site from a section based approach. This means all the sections, with the exception of the community and validation pages, are on the same webpage which is scrollable. For this reason I made the nav bar sticky and tried to make it as thin as possible.The nav bar is fully responsive and links to the Home, About, Tea and Community sections. The Validation page can only be accessed once the form on the Community section has been filled in and submitted with the correct input type. 
+* The navigation bar is featured on all pages of the site. 
+* As much of the site is a single page the nav bar is sticky to aid navigation and I tried to make it as thin as possible so it doesn't interfere with the content too much.
+* The nav bar is fully responsive and links to the Home, About, Tea and Community sections. 
+* The Validation page can only be accessed once the form on the Community section has been filled in and submitted with the correct input type. 
 
 #### Logo
-The logo also acts as a link to the homepage and is made up of the site name.
-#### Footer 
-It footer social media links which open  in a new tab for good UX. Although this is a made up website, in theory it is largely an online community, so social media is a big part of it's online presence in terms of connecting people, sharing ideas and orgainsing and promoting events.
+The logo also acts as a link to the homepage and is made up of the site name. It is part of the navigation bar and so is always on the screen as the navbar is sticky. 
 
+#### Footer 
 * The footer is fully reposive and features at the bottom of each individual webpage.
+* The footer contains external links to social media.
 * All social media links open in a new tab and contain aria-labels for accessability.
 
 #### Landing page
@@ -84,9 +94,13 @@ The About section goes into more detail introducing the site to users and explai
   * The heading are also internal links to the part of the site related to that specific content. They have a hover feature to allow users to identify that they are links. This is more useful for the mobile and small screen structure as the content is divided put a bit more and there is a lot more scrolling involved. 
 
 #### Tea
-This section contains the main content of the site and is divided into three parts; tea varieties, tea ceremony and health. Each section has a heading, an image and some text about the topic. Beneath the text are some links to external resources and an embedded video related to the topic.
+* This section contains the main content of the site and is divided into three parts; 
 
-This section also contains the footer with social media links.
+     * Tea varieties
+     * Tea ceremony
+     * Health
+
+* Each part has a heading, an image and some text about the topic. Beneath the text are some links to external resources and an embedded video related to the topic.
 
 #### Community
 * This section contains a second hero image as a background image, a heading with some text explaining about the community and how to get involved. 
@@ -106,11 +120,11 @@ This section also contains the footer with social media links.
 This page displays a "Thank You" message once users have signed up to become members. iT feature the same hero image as the community page and the same contact information and map. 
 
 ### Features left to implement
-As this is a community page and as suggested in the Community section, one of the features of this site would be a message board and live chat feature.
+* As this is a community page and as suggested in the Community section, one of the features of this site would be a message board and live chat feature.
 
-As the community grows, there would also be an events page where members and businesses could promote their tea events and meetups.
+ * As the community grows, there would also be an events page where members and businesses could promote their tea events and meetups.
 
-There is also potential for a products page where member and non-member users could purchase tea and teaware. 
+* There is also potential for a products page where member and non-member users could purchase tea and teaware. 
 
 ## Technology
 ### Languages 
@@ -132,8 +146,21 @@ There is also potential for a products page where member and non-member users co
 * [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba)
 * [Am I responsive](https://ui.dev/amiresponsive)
 
+## Testing
+  8.1 code validation
+   8.2 test cases (user story based with screenshots)
+   8.3 fixed bugs
+   8.4 supported screens and browsers
+### User Stories
+* As a visiting user, I want a quick, general intorduction to the topics.
+* As a user, I want to be able to easily navigate to the section with the information I am seeking.
+* As a user, I want to have learned something about the topic for which I visited the website.
+* As a user, I want to be given navigation links to other resources that go more in depth on the topic that interests me most.
+* As a user, I want the opportunity to connect with like-minded people and to become part of a community.
+## Deployment 
+9.1 via gitpod 
 
-## Deployment
+9.2 via github pages
 ## Credit
 Sticky Nav how to: [w3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 
@@ -145,6 +172,8 @@ How to push items to the bottom of the page with margin: 0 auto; [culture foundr
 
  How to make your flex items the same width : [Stack Overflow](https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size) 
  [Tutorial](https://www.google.com/search?q=how+do+you+make+your+flex+items+the+same+size&oq=how+do+you+make+your+flex+items+the+same+&aqs=chrome.1.69i57j33i160l4.17209j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_O9WRYuqNDuKWseMPnbe74Ag18)
+
+ How to introduce smooth transition for hover features [iqcode.com]( https://iqcode.com/code/css/css-text-larger-on-hover*/)
 
 how to use :active pseudo class : [W3schools](https://www.w3schools.com/cssref/sel_active.asp)
 

@@ -123,7 +123,9 @@ h5 {
 in the tutorial transform: scale (1.1) was used but this stopped working on mine at somepoint so I went with font: larger for a similar effect*/
 #menu a:hover {
     border-bottom: 1px solid #E0D6B5;
-    font-size: larger;
+    font-size: 1.1em;
+    /*transtion code taken from https://iqcode.com/code/css/css-text-larger-on-hover*/
+    transition: all 500ms;
 }
 
 /*menu active feature changes text colour to give a clicking effect*/
@@ -219,8 +221,11 @@ h3>a {
 
 .about-container a:hover {
     color: #425A20;
-    font-size: larger;
+    font-size: 1.1em;
+    /*transtion code taken from https://iqcode.com/code/css/css-text-larger-on-hover*/
+    transition: all 500ms;
 }
+
 /* Tea section */
 /*creates and styles a flexbox container div*/
 .tea-container {
@@ -244,7 +249,9 @@ h3>a {
 
 .tea-container a:hover {
     color: #425A20;
-    font-size: larger;
+    font-size: 1.1em;
+    /*transtion code taken from https://iqcode.com/code/css/css-text-larger-on-hover*/
+    transition: all 500ms;
 }
 /*styles the items inside the containr and their elements*/
 .tea-box {
