@@ -52,7 +52,7 @@ The images are a really important aspect of the site because they really help to
 
  ![Colour Grid](docs/README-images/colour-grid.png)
 
- ### Typogrophy
+ ### Typography
 
  The first step for choosing the font was to got to [google fonts](https://fonts.google.com/) and type my website title to see which font had the style I was going for. I wanted something simple and with soft edges, so I ended up choosing Dosis.
  
@@ -107,7 +107,7 @@ The About section goes into more detail introducing the site to users and explai
 
 * Each part has a heading, an image and some text about the topic. Beneath the text are some links to external resources, such as articles and videos, related to the topic.
 * The external links all open in a new tab, and like the internal links in the above "about" section, there is a hover feature where they change color and size to help users identify them as links.
-* aria-labels have been used to explain wha the link is and that it will open a new tab for users using a screen reader. 
+* Aria-labels have been used to explain what the link is and that it will open a new tab for users using a screen reader. 
 ![resources](docs/README-images/resources.png)
 #### Community
 * This section contains a second hero image as a background image to convey more clearly to the user that they have left the main page of the site and are on a new page.
@@ -182,7 +182,7 @@ The About section goes into more detail introducing the site to users and explai
 1. Navigation - Check this on all pages, inculding validation page.
     * Click on logo to confirm that it navigates to landing page and all navigation links to verify that they direct to the correct section.
 
-    * Uisng chrome develper tools, verify that the navigation menu resizes to fit on all screen sizes and that all the navigation links remain visible and styled according to wireframes.
+    * Using chrome develper tools, verify that the navigation menu resizes to fit on all screen sizes and that all the navigation links remain visible and styled according to wireframes.
 2. Landing page
     * Using chrome dev tools, verify that the text overlay re-sizes and shifts to be readable and look nice in all screen sizes.
     * Hero-image: Verify that the zoom animation works and the image looks centered in all screen sizes.
