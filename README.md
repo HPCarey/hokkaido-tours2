@@ -270,6 +270,8 @@ I have detailed some of the sources I used to fix bugs in the Credit section. So
 * Making flexbox items equal width despite content amount.
 * Pusing content to the bottom of a flex item.
 * Ensuring flex items wrap under 1030 px depsite display: flex, flex: 1; being applied to make flex items equal width. 
+* A horizontal scroll bar which was the result of using a fixed width on elements instead of using ems or %.
+* A footer bug on the community page occured for a while. I could not fix it by targeting the footer alone, so I commented it out and worked on the other features on the page, making them responsive and adjusting them to fit the page better. When I commented the footer back in it stayed at the bottom of the page where it should be. 
 
 ### Unfixed bugs
 * The font size of links changes because of pseudo hover class in order to make links more visible to the user, however the size change affects the other content and causes things to jump around. 
@@ -309,7 +311,7 @@ The following resources were essential for teaching me about general implementat
 
 * How to use :active pseudo class : [W3schools](https://www.w3schools.com/cssref/sel_active.asp)
 
-### Sources I use to teach myself the basics of flexbox:
+### Sources I used to teach myself the basics of flexbox:
 
 [Flexboxsheet.](docs/README-images/flexboxsheet.pdf)
 
