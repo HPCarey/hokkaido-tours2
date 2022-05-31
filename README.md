@@ -1,5 +1,5 @@
 # All About Tea
-Visit the live website [here](https://8000-hpcarey-allabouttea-wwmcndnrf4o.ws-us45.gitpod.io/)
+Visit the live website [here](https://hpcarey.github.io/all-about-tea/)
 ## Site-Overview
 All About Tea is a website dedicated to spreading information and education about tea and tea culture. It's purpose is to help popularise higher quality and healthier tea products, grown by small farmers and indigineous people, as well as to promote the more ceremonial and mindful tea practices that exist in eastern tea cultures, but which haven't quite taken off in the west yet. With meditation and mindfulness movements becoming more and more prominent in western society, All About Tea hopes to be one of the pioneering sources of the "Tea Movement" in the English speaking world. It's more immediate aim is to educate users and to build an online community around this somewhat niche hobby.
 
@@ -291,7 +291,7 @@ This website was deployed via Github pages via the folowing steps:
 4. Click save and the page displays the deployement link.
 5. It can take up to 5 minutes to deploy.
 
-Here is a link to the live [site]().
+Here is a link to the live [site](https://hpcarey.github.io/all-about-tea/).
 
 ## Credit
 The following resources were essential for teaching me about general implementation and for fixing specific bugs:
@@ -320,6 +320,8 @@ The following resources were essential for teaching me about general implementat
 [Flex box and grid](https://www.youtube.com/watch?v=R7gqJkdc5dM)
 
 [flexbox navbar](https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt)
+
+I should also give credit to the Code Institute love running walkthrough project, which was the inspiration for my landing page including the zoom feature on the hero image and the structure of thenav bar using float.
 
 ### Articles
 Articles that helped me with other aspects of the site:
