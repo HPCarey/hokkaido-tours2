@@ -345,6 +345,9 @@ All site content was written by me but I took inspiration from some of my own fa
 
 [drugtargetreview.com article](https://www.drugtargetreview.com/news/34751/matcha-green-tea-cancer/#:~:text=%E2%80%9CThe%20effects%20on%20human%20breast,metabolic%20reprogramming%20of%20cancer%20cells.%E2%80%9D)
 
+The embedded map in the contact section is actuall a real location, but it's not related to this site or me, it's just another tea-based compant that I like so I will credit it here:
+[Tea Garden](https://www.teagarden.ie/)
+
 ### Thanks
 A big thanks to the slack community and all the tutors and members that helped out and reviewed my site.
 
