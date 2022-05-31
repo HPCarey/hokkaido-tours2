@@ -135,11 +135,13 @@ The About section goes into more detail introducing the site to users and explai
 ![validation](docs/README-images/validation-page.png)
 
 ### Features left to implement
-* As this is a community page and as suggested in the Community section, one of the features of this site would be a message board and live chat feature.
+* As this is a community page and as suggested in the Community section, one of the features of this site would be a message board and live chat feature simialr to other social platforms such as slack.
 
  * As the community grows, there would also be an events page where members and businesses could promote their tea events and meetups.
 
 * There is also potential for a products page where member and non-member users could purchase tea and teaware. 
+
+* If the site were to be launched, the form could be made functional by adding a post request nce a database has been set up to collect data. 
 
 ## Technology
 ### Languages 
@@ -161,23 +163,74 @@ The About section goes into more detail introducing the site to users and explai
 * [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba)
 * [Am I responsive](https://ui.dev/amiresponsive)
 
-## Testing
-  8.1 code validation
-  8.2 test cases (user story based with screenshots)
-  8.3 fixed bugs
-  8.4 supported screens and 
-  
+## Testing 
 ### User Stories
-* As a visiting user, I want a quick, general intorduction to the topics.
-* As a user, I want to be able to easily navigate to the section with the information I am seeking.
-* As a user, I want to have learned something about the topic for which I visited the website.
-* As a user, I want to be given navigation links to other resources that go more in depth on the topic that interests me most.
-* As a user, I want the opportunity to connect with like-minded people and to become part of a community.
+1. As a visiting user, I want a quick, general intorduction to the topics.
+    * On the landing page, visiting users can read a quick overview of the site and the hero image also gives a visual idea.
+2.  As a user, I want to be able to easily navigate to the section with the information I am seeking.
+    * Users can navigate to specific sections of the site using the navigation menu.
+    * Users can also navigate to specfic sub-sections using internal links in the about section which indicate the type of information in each subsection. This is especially useful for mobile users aas the site is single page and they can avoid a lot of scrolling and searching byt using these links.
+3.  As a user, I want to have learned something about the topic for which I visited the website.
+    * As well as site specific information on the topics, there are also external links providing resources for further learning and information underneath the relevant sections.
+4. As a user, I want to be given navigation links to other resources that go more in depth on the topic that interests me most.
+    * In order to effieciently meet users needs, external resources have been grouped with the specific topics of tea, health and mindfulness. Users can easily find and identify the external resources relevant to their needs.
+5. As a user, I want the opportunity to connect with like-minded people and to become part of a community.
+    * The community section provides users with the opportunity to connect with like-minded people.
+    * The form in the community section gives users the opportunity to become members of the community and hence encourages visiting user to become frequent users.  
+
+### Manual Testing
+1. Navigation - Check this on all pages, inculding validation page.
+    * Click on logo to confirm that it navigates to landing page and all navigation links to verify that they direct to the correct section.
+
+    * Uisng chrome develper tools, verify that the navigation menu resizes to fit on all screen sizes and that all the navigation links remain visible and styled according to wireframes.
+2. Landing page
+    * Using chrome dev tools, verify that the text overlay re-sizes and shifts to be readable and look nice in all screen sizes.
+    * Hero-image: Verify that the zoom animation works and the image looks centered in all screen sizes.
+
+3. About
+
+    * Check that the video fits all screen sizes and is responsive.
+    * Make sure autoplay on the video is disabled.
+    * check that all text elements are readable and responsive on all screen sizes.
+
+4. Tea
+    * Verify that flexbox items wrap in screens under 1030px.
+    * Make sure contents are centered and responsive on all screen sizes, especially images.
+   * Ensure that external links arclearly identifiable and that they open in a new tab. 
+    * Ensure all non-textual elements on the page have sufficient aria-label descriptions. 
+
+5. Community
+  * Hero-image: Verify that the zoom animation works and the image looks centered in all screen sizes.
+  * Verify that all textual elements are readable and responsive for all screen sizes.
+  * Verify that the form works:
+    * Verify that all elements that are set to required are working.
+    * Enusre that the correct input value must be entered for form validation to occur, especially for email
+    * Check that 'Submit' button directs user to the validation page.
+ * Ensure that flexbox items wrap for screen sizes under 900px.
+ * Ensure that content in flexbox items is responsive and centered in all screen sizes.    
+
+
+6. Validation page
+  * Hero-image: Verify that the zoom animation works and the image looks centered in all screen sizes.
+  * Verify that all textual elements are readable and responsive for all screen sizes.
+  * Check that navigation and footer links work the same as other pages.
+
+7. Footer - Check this on all pages, inculding validation page.
+    * Verify that the social media links open in a new tab.
+    * Ensure footer is resonsive and stays at the bottom of the page.
 
 ## Deployment 
 9.1 via gitpod 
 
-9.2 via github pages
+This website was deployed via Github pages via the folowing steps:
+
+1. Navigate to the Settings tab in the GitHub repository for the project.
+2. Find the pages tab from the left-hand menu and select.
+3. Under the Source tab, select the branch called Main the folder called Root.
+4. Click save and the page displays the deployement link.
+5. It can take up to 5 minutes to deploy.
+
+Here is a link to the live [site]().
 ## Credit
 Sticky Nav how to: [w3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 
