@@ -340,3 +340,12 @@ All site content was written by me but I took inspiration from some of my own fa
 [Global Tea Hut](https://globalteahut.org/)
 
 [Mansatea](https://mansatea.com/blogs/learn/types-of-tea)
+
+[Pennmedicine.org article](https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea#:~:text=Numerous%20studies%20have%20shown%20that,lasting%20impact%20on%20your%20wellness.)
+
+[drugtargetreview.com article](https://www.drugtargetreview.com/news/34751/matcha-green-tea-cancer/#:~:text=%E2%80%9CThe%20effects%20on%20human%20breast,metabolic%20reprogramming%20of%20cancer%20cells.%E2%80%9D)
+
+### Thanks
+A big thanks to the slack community and all the tutors and members that helped out and reviewed my site.
+
+A big thanks to my mentor Rohit Sharma for his advice and guidance on this project.
