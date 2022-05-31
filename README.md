@@ -219,8 +219,67 @@ The About section goes into more detail introducing the site to users and explai
     * Verify that the social media links open in a new tab.
     * Ensure footer is resonsive and stays at the bottom of the page.
 
+### Code Validation
+1. HTML
+    * HTML validationwas done using [W3C Markup validator](https://validator.w3.org/)
+    * Initial errors for the main page included:
+        * a "section lacks heading" warning: 
+            * This error is as a result of having a section for the hero image and styling the overlay text as a paragraph. Running this through the validator made me realise that this was not good semantic web practice and it would be better to label the text as a header and target the header for styling. This realisation was reinforced by my [lighthouse]() accessibilty results and I began to relaise that I was treating the headings too much as style rules and not enough semanitcally. This caused me to go back and re-label some headings and target them with specific css style rules instead of relying on the general heading style rules I had written in the css. 
+        * a "bad value" for the embedded video for width 100%
+            * I fixed this by removing width and height values from the iframe and styling the video in CSS instead.
+        * an obsolete frameborder attribute for embedded video.
+            * Fixed by removing the attribute. 
+        * a stray end tag </i>
+            * fixed by removing
+
+
+![index.html](docs/README-images/html-validator.png)
+
+* Initial errors for the community and validation page were:
+        * The same "section lacks heading" warning:
+            * As I saw these errors and began to read about the [section element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) and the semantic importance of having a heading in a section, even if it's visually not required, I decided to give this hero-image section a hidden heading for semantic reasons. The heading is hidden by the content and this actually meets my visual preferences so I kept it like that.
+        * There was also a small id and label error for the form element where they didn't match exactly.       
+
+ 
+2. CSS
+    * CSS Validation was done using [Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+    * [CSS validator results](http://jigsaw.w3.org/css-validator/validator$link)
+
+    * No bugs were found in the CSS at the final tetsing stage as I had been testing throughout development and CSS bugs were common and obvious in the gitpod browser so were quickly identified and fixed.
+
+![CSS](docs/README-images/css-validation.png)
+
+3. Lighthouse
+ * Initial results showed a good accessibility score but improvements could be made based on the order of headings, eg. using an h5 heading in a section without using an h4 element first. 
+    * I fixed this issues by relabelling headings and targeting them for styling specifically in ths css. This improved the accesibility score as well as the best practice score to 100%.
+* The performance results varied depending on how good my connection was at the time of running lighthouse. For desktop the results below range from 82 - 79 and 54 for mobile. The cause for these lower results seems to be loading time for images and embedded video. A quick analysis of this suggests using lazy loading configuration for the iframe. This issue is something I will have to think about more during the development stage next time.     
+
+#### Lighthouse initial results
+![Lighthouse initial results](docs/README-images/Lighthouse%20initial%20results.png)  
+
+#### Lighthouse desktop final results
+![Lighthouse desktop](docs/README-images/lighthouse-desktop.png)
+
+#### Lighthouse mobile final results
+![lighthouse mobile](docs/README-images/mobile-lighthouse.png)
+
+### Fixed bugs
+I have detailed some of the sources I used to fix bugs in the Credit section. Some of the main issues that were resolved were:
+* Centering content in flexbox items
+* Making flexbox items equal width despite content amount.
+* Pusing content to the bottom of a flex item.
+* Ensuring flex items wrap under 1030 px depsite display: flex, flex: 1; being applied to make flex items equal width. 
+
+### Unfixed bugs
+* The font size of links changes because of pseudo hover class in order to make links more visible to the user, however the size change affects the other content and causes things to jump around. 
+* The navbar loses it's structure below 280 px. This is really narrow so it doesn't require urgent attention but would be worth looking into howto maintain navbar structure asa much as possible. 
+* Since changing the video width and height properties by moving them from the embedded link to css, the thumbnail image for the video is slightly cut off on smaller screens. The video itself is fine, but I wouls like to fix this thumbnail issue.
+
+### Screens and Browsers
+* The site was tested in chrome, firefox and microsoft edge browsers
+
 ## Deployment 
-9.1 via gitpod 
 
 This website was deployed via Github pages via the folowing steps:
 
@@ -231,21 +290,28 @@ This website was deployed via Github pages via the folowing steps:
 5. It can take up to 5 minutes to deploy.
 
 Here is a link to the live [site]().
+
 ## Credit
-Sticky Nav how to: [w3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+The following resources were essential for teaching me about general implementation and for fixing specific bugs:
 
-How to align items in flexbox (This helped me solve several alignment issues with flex content including how to center the images in a display flex container a): [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+* How to implement a Sticky Nav : [w3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 
-How to push items to the bottom of the page with margin: 0 auto; [culture foundry](https://www.culturefoundry.com/cultivate/technology/bottom-align-an-element-with-flexbox/)
+* How to align items in flexbox (This helped me solve several alignment issues with flex content including how to center the images in a display flex container a): [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 
- How to get flex items to wrap after making them display: flex; flex: 1; for equal width: [Stack Overflow](https://stackoverflow.com/questions/44135352/flex-wrap-is-not-wrapping-when-i-reduce-the-window-size)
+* How to push items to the bottom of the page with margin: 0 auto; [culture foundry](https://www.culturefoundry.com/cultivate/technology/bottom-align-an-element-with-flexbox/)
 
- How to make your flex items the same width : [Stack Overflow](https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size) 
+ * How to get flex items to wrap after making them display: flex; flex: 1; for equal width: [Stack Overflow](https://stackoverflow.com/questions/44135352/flex-wrap-is-not-wrapping-when-i-reduce-the-window-size)
+
+ * How to make your flex items the same width : [Stack Overflow](https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size) 
  [Tutorial](https://www.google.com/search?q=how+do+you+make+your+flex+items+the+same+size&oq=how+do+you+make+your+flex+items+the+same+&aqs=chrome.1.69i57j33i160l4.17209j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_O9WRYuqNDuKWseMPnbe74Ag18)
 
- How to introduce smooth transition for hover features [iqcode.com]( https://iqcode.com/code/css/css-text-larger-on-hover*/)
+ * How to introduce smooth transition for hover features [iqcode.com]( https://iqcode.com/code/css/css-text-larger-on-hover*/)
 
-how to use :active pseudo class : [W3schools](https://www.w3schools.com/cssref/sel_active.asp)
+* How to use :active pseudo class : [W3schools](https://www.w3schools.com/cssref/sel_active.asp)
+
+### Sources I use to teach myself the basics of flexbox:
+
+[Flexboxsheet.](docs/README-images/flexboxsheet.pdf)
 
 [Flex box tutorial](https://www.youtube.com/watch?v=JJSoEo8JSnc)
 
@@ -254,4 +320,19 @@ how to use :active pseudo class : [W3schools](https://www.w3schools.com/cssref/s
 [flexbox navbar](https://www.youtube.com/watch?v=yXhfUCXy2j4&ab_channel=WhatMakeArt)
 
 ### Articles
+Articles that helped me with other aspects of the site:
+
+#### Images:
 [Jimdo](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/): Article on how to prepare images for assets folder
+
+#### Good Practice:
+[Section element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section): Article on the semantic importance of headings and sections
+
+### Media and site content
+All site content was written by me but I took inspiration from some of my own favourite sites on the topic. These sites have also been linked as resources on the webpage. All credit goes to them.
+
+[Meileaf](https://meileaf.com/)
+
+[Global Tea Hut](https://globalteahut.org/)
+
+[Mansatea](https://mansatea.com/blogs/learn/types-of-tea)

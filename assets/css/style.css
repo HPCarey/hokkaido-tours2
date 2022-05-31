@@ -23,6 +23,7 @@ body {
 /*styles header to stand out with background color and to be sticky*/
 .header-nav {
     display: inline-block;
+    /* sticky nav : https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
     position: fixed;
     overflow: hidden;
     z-index: 1;
