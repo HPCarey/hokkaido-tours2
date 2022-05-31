@@ -236,9 +236,9 @@ The About section goes into more detail introducing the site to users and explai
 ![index.html](docs/README-images/html-validator.png)
 
 * Initial errors for the community and validation page were:
-        * The same "section lacks heading" warning:
-            * As I saw these errors and began to read about the [section element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) and the semantic importance of having a heading in a section, even if it's visually not required, I decided to give this hero-image section a hidden heading for semantic reasons. The heading is hidden by the content and this actually meets my visual preferences so I kept it like that.
-        * There was also a small id and label error for the form element where they didn't match exactly.       
+    * The same "section lacks heading" warning:
+        * As I saw these errors and began to read about the [section element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) and the semantic importance of having a heading in a section, even if it's visually not required, I decided to give this hero-image section a hidden heading for semantic reasons. The heading is hidden by the content and this actually meets my visual preferences so I kept it like that.
+    * There was also a small id and label error for the form element where they didn't match exactly.       
 
  
 2. CSS
