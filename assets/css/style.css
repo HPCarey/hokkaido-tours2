@@ -475,20 +475,20 @@ footer {
         right: 34px;
     }
 
-    .tea-container {
+    .tours-container {
         flex-wrap: wrap;
     }
 
     /*undoes the flex 1 command to make items equal width so that they wrap in smaller screen sizes*/
-    .tea-box {
+    .tours-box {
         flex-basis: 100%;
     }
 
-    .tea-box h4 {
+    .tours-box h4 {
         text-align: center;
     }
 
-    .tea-box h4~p {
+    .tours-box h4~p {
         text-align: center;
     }
 }
